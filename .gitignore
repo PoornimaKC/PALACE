@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.mp4
+results/
+jobs/
+converted_*.mp4
+uploads/
+palace_clean/
+*.avi
+*.mov

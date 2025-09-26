@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+venv
+env
+.env
+outputs/
+uploads/
+jobs/
+*.mp4
+*.mkv
+*.png
+.cache
+.git

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VR180 Converter</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+  <h2>🎥 VR180 Converter</h2>
+  <form action="/convert" method="post" enctype="multipart/form-data">
+    <label>Upload Video:</label>
+    <input type="file" name="file" required><br><br>
+
+    <label><input type="checkbox" name="lens"> Lens Distortion</label><br>
+    <label><input type="checkbox" name="color"> Color Boost</label><br>
+    <label><input type="checkbox" name="text"> Watermark Text</label><br><br>
+
+    <button type="submit">Upload & Convert</button>
+  </form>
+</body>
+</html>

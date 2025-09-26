@@ -1,0 +1,14 @@
+# Web
+fastapi==0.111.0
+uvicorn[standard]==0.22.0
+python-multipart==0.0.9
+jinja2==3.1.2
+
+# FFmpeg wrappers (python bindings)
+ffmpeg-python==0.2.0
+imageio-ffmpeg==0.4.9
+
+# Media processing
+numpy>=1.24.0
+opencv-python-headless>=4.9.0.80
+pillow>=9.0.0

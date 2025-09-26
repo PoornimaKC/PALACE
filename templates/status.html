@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PALACE - Processing</title>
+</head>
+<body style="font-family: Arial; text-align:center; margin-top:50px;">
+    <h1>PALACE Processing Status</h1>
+    <h3>Status: {{ status }}</h3>
+
+    {% if download_url %}
+        <p>Your VR180 video is ready 🎉</p>
+        <a href="{{ download_url }}">⬇ Download Video</a>
+    {% else %}
+        <p>Please refresh this page after a few seconds...</p>
+    {% endif %}
+</body>
+</html>
